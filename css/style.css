@@ -36,9 +36,13 @@
 }
 
 body {
+  padding: 1.5%;
   max-width: 1280px;
   margin: 0 auto;
   background-color: var(--color-creamson);
+}
+.wrapper {
+  border: 2px solid var(--color-white);
 }
 
 a {
@@ -286,6 +290,9 @@ a {
 @media screen and (max-width: 1024px) {
   .trending-sushi {
     flex-direction: column;
+  }
+  .trending-drinks {
+    flex-direction: column-reverse;
   }
 
   .trending-drink {
